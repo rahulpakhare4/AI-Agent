@@ -14,3 +14,4 @@ torchaudio==2.6.0
 torchvision==0.21.0
 watchfiles==1.0.4
 websockets==15.0
+numpy==1.23.5
