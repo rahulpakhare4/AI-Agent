@@ -23,7 +23,8 @@ chat = ChatGroq(temperature=0.7, model_name="llama3-70b-8192", groq_api_key="gsk
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
 # Initialize ChromaDB
-chroma_client = chromadb.PersistentClient(path="./chroma_db")
+#chroma_client = chromadb.PersistentClient(path="./chroma_db")
+chroma_client = chromadb.Client()
 collection = chroma_client.get_or_create_collection(name="ai_knowledge_base")
 
 def load_pdf(file):
