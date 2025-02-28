@@ -1,0 +1,16 @@
+chromadb==0.6.3
+faiss-cpu==1.10.0
+httptools==0.6.4
+langchain==0.3.19
+langchain-groq==0.2.4
+langchain-huggingface==0.1.2
+openai==1.65.1
+pip==24.3.1
+PyPDF2==3.0.1
+python-dotenv==1.0.1
+streamlit==1.42.2
+tiktoken==0.9.0
+torchaudio==2.6.0
+torchvision==0.21.0
+watchfiles==1.0.4
+websockets==15.0
