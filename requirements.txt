@@ -1,4 +1,4 @@
-chromadb==0.6.3
+chromadb==0.4.24
 faiss-cpu==1.10.0
 httptools==0.6.4
 langchain==0.3.19
